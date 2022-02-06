@@ -1,0 +1,18 @@
+@import "../../styles/colors";
+.cart-container {
+  .remove-add-icon {
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  .price-details {
+    padding: 1rem;
+  }
+  .cart-listing {
+    .ant-list-item {
+      border-bottom: 3px solid $border-bottom-header !important;
+      background: $listing-background;
+      margin: 1rem;
+      padding: 1rem;
+    }
+  }
+}

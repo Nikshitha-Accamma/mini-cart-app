@@ -1,0 +1,21 @@
+@import "./styles/colors";
+.ant-popover-arrow-content {
+  background-color: $popover-color;
+}
+.ant-popover-inner-content {
+  background-color: $popover-color;
+  padding: 0;
+}
+.ant-popover {
+  width: 25%;
+}
+.anticon-close {
+  color: $white;
+  margin-left: 0.5rem;
+}
+.list-content {
+  margin-right: 1rem;
+}
+.ant-card-head {
+  border-bottom: 4px solid $border-bottom-header;
+}
